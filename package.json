@@ -14,5 +14,9 @@
   },
   "overrides": {
     "vite": "npm:rolldown-vite@7.1.12"
+  },
+  "dependencies": {
+    "color-namer": "^1.4.0",
+    "colorjs.io": "^0.5.2"
   }
 }
