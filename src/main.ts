@@ -4,6 +4,7 @@ const app = document.getElementById("app")!;
 const router = new Router(app, [
   { path: "/",         load: () => import("./pages/Home") },
   { path: "/colorlab",  load: () => import("./pages/ColorLab") },
+  { path: "/colorcube", load: () => import("./pages/colorcube") },
   { path: "*",         load: () => import("./pages/NotFound") },
 ]);
 
